@@ -5,7 +5,7 @@ on:
         braches:
             - main
     pull_request:
-        braaches:
+        branches:
             - main
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
 
             - name: Install dependencies
               run: |
-                python -m pip install --upgrape pip
+                python -m pip install --upgrade pip
                 pip install poetry
 
             - name: Install project dependencies
